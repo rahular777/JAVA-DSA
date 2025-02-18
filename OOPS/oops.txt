@@ -1,0 +1,83 @@
+class are the blue print of a realworld entites.
+objects are the instance of classes.
+
+class->car->(objects)->bmw,audi,suzuki...etc
+
+class have 2 properties attributes and functions.
+attributes-model,color,number-plate etc..
+functions-car can move,break...etc
+
+
+creating a class:
+the elements which are required to create class are:
+*access modifier(public,private,protected,default)
+*class keyword
+*class name
+*body name
+
+
+
+creating a object:-
+
+syntex-
+className objectname=new classname();
+new->keyword
+
+EX->person rahul=new person();
+
+
+java method and functions:
+
+method:block of code performing some action which runs only when it is called.
+functions are called directly ex:bark()
+>but methods are called by using the object name ex:flufy.bark().
+
+why methods are imp?
+>write once and reuse many times.
+>time save
+>duplicate code reduces
+
+types of methods:
+>user-defined methods
+>standard library methos.
+
+how to declare methods:
+public class Main{
+    public int sum(int a,int b){
+        //access-modifier return-type(int,void,string) method-name(parameter-list)
+    }
+}
+
+1.method signature: method name+parameter list.
+2.Access specifier:public,private,protected,default.
+3.return-type:void,int.
+4.method name :sum
+5.parameter:(int a,int b)
+6.method body:
+void sum(){
+
+}
+
+Call method:
+sum();
+
+Standard library methods:-
+print()
+squrt():ny this method we can get square 
+floor()
+ceil()
+
+Package:collection of similar classes,subpackages,interfaces.
+
+Constructor:a special method which is initiaze objetcs,which will called itself.
+>constructor name=class name.
+>constructor does not have return type.
+
+
+
+
+
+
+
+
+

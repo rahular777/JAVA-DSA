@@ -1,0 +1,61 @@
+Arrays:arrays are datastructure which stores a collection of homogenous items.
+
+Representation of arrays:
+int[] ages;
+String[] names;
+float[] weights;
+
+syntax for array declaration:
+1.int[] ages;
+where ages=new int[];
+
+2.int[] ages=new int[10];
+3.String[] names=new String[20];
+
+
+Array literal:
+
+int[] age={1,25,35,45,55};
+
+memory allocation in arrays:
+
+int age=5;
+In arrays the memory allocation will be in 2 ways,that is stacks and heap
+In stacks the reference variable are going to be stored but in the case of heap actuale memory allocation will take place.
+for ex:int[] age=new int[4];
+now the refence of the age and the memory addreses will be stored in the stacks.
+but in the heap actuale memory will be allocated.
+
+Accessing elements in single dimensional array:
+>0-indexing
+
+
+Array Types:
+>single dimensional
+>multi dimensional
+
+initializing 1d and 2d array:
+1-D:int[] array_name=new int[];
+
+2-D:int[][] array_name=new int[][];
+          or
+ int[][] array_name=new int{{}};
+
+
+ Length operation in arrays:
+to print the array lenth we can use(array.lenth)  
+
+
+Traversing through the array:
+
+we can use the loops to travers the array:
+1.for 
+2.while
+3.for each
+
+
+
+
+Taking a array input in java:
+
+Array reference in java:

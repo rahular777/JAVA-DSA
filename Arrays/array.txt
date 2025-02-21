@@ -52,3 +52,6 @@ we can use the loops to travers the array:
 1.for 
 2.while
 3.for each
+
+
+Taking a array input:
